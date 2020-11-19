@@ -1,0 +1,58 @@
+.students {
+    margin-top: $mg-2;
+    .container-fluid {
+        padding-left: 50px;
+        padding-right: 50px;
+        .title {
+            h2 {
+                @include styleText($color-black-light, $fs-2, 400px);
+                line-height: 1.47em;
+                margin: 0 0 10px;
+            }
+        }
+        .col-2 {
+            padding-right: 8px;
+            padding-left: 8px;
+            max-width: 100%;
+        }
+        .students_tabs {
+            background: #fff;
+            height: 290px;
+            display: block;
+            overflow: hidden;
+            position: relative;
+            white-space: normal;
+            .card {
+                .card-body {
+                    .card-title {
+                        text-overflow: ellipsis;
+                        height: 42px;
+                        margin-bottom: 10px;
+                        @include styleText($color-black-0, $fs-0, $fw-bold-0);
+                    }
+                    .card-text {
+                        @include styleText($color-black-0, 10px, $fw-bold-0);
+                    }
+                }
+                &::before {
+                    @include styleText($color-black-0, 10px, $fw-bold-0);
+                    text-align: center;
+                    content: "BEST SELLER";
+                    background-color: $color-yellow;
+                    position: absolute;
+                    height: 15px;
+                    width: 60px;
+                    top: 20px;
+                    left: -1px;
+                }
+            }
+        }
+    }
+    .owl-prev{
+        left: -1.5%;
+    }
+    .owl-next{
+        left: unset;
+        right: -1.5%;
+    }
+}

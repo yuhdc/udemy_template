@@ -1,0 +1,2228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- FONT GOOGLE -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+
+  <!-- BS4 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- owl -->
+  <link rel="stylesheet" href="./sass/Vendor/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="./sass/Vendor/owl/owl.theme.default.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md">
+      <div class="col-2 col-sm-2 d-md-none">
+        <i class="fa fa-bars"></i>
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="col-8 col-sm-8 col-md-9 col-lg-9 col-xl-7">
+        <div class="header__left">
+          <a class="navbar-brand text-center" href="#">
+            <img src="./img/logo-coral.svg" alt="">
+          </a>
+          <span class="categories">
+            <i class="fa fa-th"></i>
+            Categories
+          </span>
+          <form class="form-search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for anything"
+                aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2">
+                  <i class="fa fa-search"></i>
+                </span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-2 col-sm-2 col-md-3 col-lg-3 col-xl-5">
+        <div class="header__right">
+          <div class="business">
+            <a href="#">
+              Udemy for Business
+            </a>
+          </div>
+          <div class="teach">
+            <a href="#">
+              Teach on Udemy
+            </a>
+          </div>
+          <div class="divide"></div>
+          <div class="icon">
+            <a href="#">
+              <i class="fa fa-shopping-cart"></i>
+            </a>
+          </div>
+          <div class="ude-btngroup">
+            <button class="btn">Log In</button>
+            <button class="btn btn-danger">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="udeCarousel">
+    <div class="container">
+      <div class="carousel_content">
+        <h2>Learn on your schedule</h2>
+        <p>Study any topic, anytime. Choose from thousands of expert-led courses now.</p>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for anything" aria-label="Recipient's username"
+            aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button>
+              <span class="input-group-text" id="basic-addon2">
+                <i class="fa fa-search"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="intro">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4 intro_1 d-flex">
+          <span class="intro_icon">
+            <i class="fa fa-bullseye"></i>
+          </span>
+          <div class="intro_content">
+            <h3>100,000 online courses</h3>
+            <p>Explore a variety of fresh topics</p>
+          </div>
+        </div>
+        <div class="col-4 intro_2 d-flex">
+          <span class="intro_icon">
+            <i class="fa fa-check-circle"></i>
+          </span>
+          <div class="intro_content">
+            <h3>Expert instruction</h3>
+            <p>Find the right instructor for you</p>
+          </div>
+        </div>
+        <div class="col-4 intro_3 d-flex">
+          <span class="intro_icon">
+            <i class="fa fa-clock"></i>
+          </span>
+          <div class="intro_content">
+            <h3>Expert instruction</h3>
+            <p>Learn on your schedule</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="courses">
+    <div class="courses_content">
+      <div class="row">
+        <div class="col-4">
+          <div class="courses_des">
+            <h2>The world’s largest selection of courses</h2>
+            <p>Choose from over 100,000 online video courses with new additions published every month</p>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="myTab">
+            <!-- Nav pills -->
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#business">Business</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#design">Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#photography">Photography </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#development">Development</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#marketing">Marketing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#it">It & Software</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#pd">Personal Development</a>
+              </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane container active" id="business">
+                <div id="courses-carousel" class="courses_item owl-carousel owl-theme">
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1570206_26c6_4.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Microsoft Power BI - Up &amp; Running With Power BI Desktop</h2>
+                      <p class="card-text">Maven Analytics, Chris Dutton, Aaron Parry</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.6</span>
+                        <span>(19,696)</span>
+                      </div>
+                      <div class="price">
+                        <span>$94.99</span>
+                        <span>$10.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1269254_1df3_8.jpg">
+                    <div class="card-body">
+                      <h2 class="card-title">MBA in a Box: Business Lessons from a CEO</h2>
+                      <p class="card-text">365 careers</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(7,134)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/864146_dbd7_10.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Agile Crash Course: Agile Project Management; Agile Delivery</h2>
+                      <p class="card-text">Mauricio Rubio - Agile Guru &amp; Founder of AgileKB | Ureducation</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.3</span>
+                        <span>(27,307)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane container fade" id="design">
+                <div class="courses_item owl-carousel owl-theme">
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1570206_26c6_4.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Microsoft Power BI - Up &amp; Running With Power BI Desktop</h2>
+                      <p class="card-text">Maven Analytics, Chris Dutton, Aaron Parry</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.6</span>
+                        <span>(19,696)</span>
+                      </div>
+                      <div class="price">
+                        <span>$94.99</span>
+                        <span>$10.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1269254_1df3_8.jpg">
+                    <div class="card-body">
+                      <h2 class="card-title">MBA in a Box: Business Lessons from a CEO</h2>
+                      <p class="card-text">365 careers</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(7,134)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/864146_dbd7_10.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Agile Crash Course: Agile Project Management; Agile Delivery</h2>
+                      <p class="card-text">Mauricio Rubio - Agile Guru &amp; Founder of AgileKB | Ureducation</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.3</span>
+                        <span>(27,307)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane container fade" id="photography">
+                <div class="courses_item owl-carousel owl-theme">
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1570206_26c6_4.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Microsoft Power BI - Up &amp; Running With Power BI Desktop</h2>
+                      <p class="card-text">Maven Analytics, Chris Dutton, Aaron Parry</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.6</span>
+                        <span>(19,696)</span>
+                      </div>
+                      <div class="price">
+                        <span>$94.99</span>
+                        <span>$10.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1269254_1df3_8.jpg">
+                    <div class="card-body">
+                      <h2 class="card-title">MBA in a Box: Business Lessons from a CEO</h2>
+                      <p class="card-text">365 careers</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(7,134)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/864146_dbd7_10.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Agile Crash Course: Agile Project Management; Agile Delivery</h2>
+                      <p class="card-text">Mauricio Rubio - Agile Guru &amp; Founder of AgileKB | Ureducation</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.3</span>
+                        <span>(27,307)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane container fade" id="development">
+                <div class="courses_item owl-carousel owl-theme">
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1570206_26c6_4.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Microsoft Power BI - Up &amp; Running With Power BI Desktop</h2>
+                      <p class="card-text">Maven Analytics, Chris Dutton, Aaron Parry</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.6</span>
+                        <span>(19,696)</span>
+                      </div>
+                      <div class="price">
+                        <span>$94.99</span>
+                        <span>$10.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1269254_1df3_8.jpg">
+                    <div class="card-body">
+                      <h2 class="card-title">MBA in a Box: Business Lessons from a CEO</h2>
+                      <p class="card-text">365 careers</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(7,134)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/864146_dbd7_10.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Agile Crash Course: Agile Project Management; Agile Delivery</h2>
+                      <p class="card-text">Mauricio Rubio - Agile Guru &amp; Founder of AgileKB | Ureducation</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.3</span>
+                        <span>(27,307)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane container fade" id="marketing">
+                <div class="courses_item owl-carousel owl-theme">
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1570206_26c6_4.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Microsoft Power BI - Up &amp; Running With Power BI Desktop</h2>
+                      <p class="card-text">Maven Analytics, Chris Dutton, Aaron Parry</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.6</span>
+                        <span>(19,696)</span>
+                      </div>
+                      <div class="price">
+                        <span>$94.99</span>
+                        <span>$10.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1269254_1df3_8.jpg">
+                    <div class="card-body">
+                      <h2 class="card-title">MBA in a Box: Business Lessons from a CEO</h2>
+                      <p class="card-text">365 careers</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(7,134)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/864146_dbd7_10.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Agile Crash Course: Agile Project Management; Agile Delivery</h2>
+                      <p class="card-text">Mauricio Rubio - Agile Guru &amp; Founder of AgileKB | Ureducation</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.3</span>
+                        <span>(27,307)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane container fade" id="it">
+                <div class="courses_item owl-carousel owl-theme">
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1570206_26c6_4.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Microsoft Power BI - Up &amp; Running With Power BI Desktop</h2>
+                      <p class="card-text">Maven Analytics, Chris Dutton, Aaron Parry</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.6</span>
+                        <span>(19,696)</span>
+                      </div>
+                      <div class="price">
+                        <span>$94.99</span>
+                        <span>$10.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1269254_1df3_8.jpg">
+                    <div class="card-body">
+                      <h2 class="card-title">MBA in a Box: Business Lessons from a CEO</h2>
+                      <p class="card-text">365 careers</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(7,134)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/864146_dbd7_10.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Agile Crash Course: Agile Project Management; Agile Delivery</h2>
+                      <p class="card-text">Mauricio Rubio - Agile Guru &amp; Founder of AgileKB | Ureducation</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.3</span>
+                        <span>(27,307)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane container fade" id="pd">
+                <div class="courses_item owl-carousel owl-theme">
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1570206_26c6_4.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Microsoft Power BI - Up &amp; Running With Power BI Desktop</h2>
+                      <p class="card-text">Maven Analytics, Chris Dutton, Aaron Parry</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.6</span>
+                        <span>(19,696)</span>
+                      </div>
+                      <div class="price">
+                        <span>$94.99</span>
+                        <span>$10.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1269254_1df3_8.jpg">
+                    <div class="card-body">
+                      <h2 class="card-title">MBA in a Box: Business Lessons from a CEO</h2>
+                      <p class="card-text">365 careers</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(7,134)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/864146_dbd7_10.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">Agile Crash Course: Agile Project Management; Agile Delivery</h2>
+                      <p class="card-text">Mauricio Rubio - Agile Guru &amp; Founder of AgileKB | Ureducation</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.3</span>
+                        <span>(27,307)</span>
+                      </div>
+                      <div class="price">
+                        <span>$109.99</span>
+                        <span>$12.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="./img/1288044_d262_2.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h2 class="card-title">The
+                        Complete Foundation Stock Trading Course</h2>
+                      <p class="card-text">Mohsen Hassan, bloomteam</p>
+                      <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.5</span>
+                        <span>(17,931)</span>
+                      </div>
+                      <div class="price">
+                        <span>$134.99</span>
+                        <span>$15.99</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 services_tab">
+          <span class="services_icon">
+            <i class="fa fa-play-circle"></i>
+          </span>
+          <div class="services_content">
+            <h3>Go at your own pace</h3>
+            <p>Enjoy lifetime access to courses on Udemy’s website and app</p>
+          </div>
+        </div>
+        <div class="col-4 services_tab">
+          <span class="services_icon">
+            <i class="fa fa-check-circle"></i>
+          </span>
+          <div class="services_content">
+            <h3>Learn from industry experts</h3>
+            <p>Select from top instructors around the world</p>
+          </div>
+        </div>
+        <div class="col-4 services_tab">
+          <span class="services_icon">
+            <i class="fa fa-clock"></i>
+          </span>
+          <div class="services_content">
+            <h3>Find video courses on almost any topic</h3>
+            <p>Build your library for your career and personal growth</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="students">
+    <div class="container-fluid">
+      <div class="title">
+        <h2>Students are viewing</h2>
+      </div>
+      <div id="students-carousel" class="row owl-carousel owl-theme">
+        <div class="col-2 students_tabs">
+          <div class="card">
+            <img class="card-img-top" src="./img/kh1.jpg" alt="Card image">
+            <div class="card-body">
+              <h2 class="card-title">Microsoft Excel - Excel from Beginner to Advanced</h2>
+              <p class="card-text">Kyle Pew, Office Newb LLC</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                <span>4.6</span>
+                <span>(143,668)</span>
+              </div>
+              <div class="price">
+                <span>$149.99</span>
+                <span>$20.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 students_tabs">
+          <div class="card">
+            <img class="card-img-top" src="./img/kh10.jpg" alt="Card image">
+            <div class="card-body">
+              <h2 class="card-title">Microsoft Excel - Excel from Beginner to Advanced</h2>
+              <p class="card-text">Kyle Pew, Office Newb LLC</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                <span>4.6</span>
+                <span>(143,668)</span>
+              </div>
+              <div class="price">
+                <span>$149.99</span>
+                <span>$20.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 students_tabs">
+          <div class="card">
+            <img class="card-img-top" src="./img/kh11.jpg" alt="Card image">
+            <div class="card-body">
+              <h2 class="card-title">Microsoft Excel - Excel from Beginner to Advanced</h2>
+              <p class="card-text">Kyle Pew, Office Newb LLC</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                <span>4.6</span>
+                <span>(143,668)</span>
+              </div>
+              <div class="price">
+                <span>$149.99</span>
+                <span>$20.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 students_tabs">
+          <div class="card">
+            <img class="card-img-top" src="./img/kh13.jpg" alt="Card image">
+            <div class="card-body">
+              <h2 class="card-title">Microsoft Excel - Excel from Beginner to Advanced</h2>
+              <p class="card-text">Kyle Pew, Office Newb LLC</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                <span>4.6</span>
+                <span>(143,668)</span>
+              </div>
+              <div class="price">
+                <span>$149.99</span>
+                <span>$20.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 students_tabs">
+          <div class="card">
+            <img class="card-img-top" src="./img/kh14.jpg" alt="Card image">
+            <div class="card-body">
+              <h2 class="card-title">Microsoft Excel - Excel from Beginner to Advanced</h2>
+              <p class="card-text">Kyle Pew, Office Newb LLC</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                <span>4.6</span>
+                <span>(143,668)</span>
+              </div>
+              <div class="price">
+                <span>$149.99</span>
+                <span>$20.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 students_tabs">
+          <div class="card">
+            <img class="card-img-top" src="./img/kh4.jpg" alt="Card image">
+            <div class="card-body">
+              <h2 class="card-title">Microsoft Excel - Excel from Beginner to Advanced</h2>
+              <p class="card-text">Kyle Pew, Office Newb LLC</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                <span>4.6</span>
+                <span>(143,668)</span>
+              </div>
+              <div class="price">
+                <span>$149.99</span>
+                <span>$20.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 students_tabs">
+          <div class="card">
+            <img class="card-img-top" src="./img/kh9.jpg" alt="Card image">
+            <div class="card-body">
+              <h2 class="card-title">Microsoft Excel - Excel from Beginner to Advanced</h2>
+              <p class="card-text">Kyle Pew, Office Newb LLC</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                <span>4.6</span>
+                <span>(143,668)</span>
+              </div>
+              <div class="price">
+                <span>$149.99</span>
+                <span>$20.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="banner">
+    <div class="banner__top-border"></div>
+    <div class="banner__content">
+      <div class="container-flex container">
+        <div class="between-xs banner__icon row">
+          <div class="col-xs "><i class="fa fa-tv"></i></div>
+          <div class="col-xs "><i class="fa fa-book"></i></div>
+          <div class="col-xs "><i class="fa fa-balance-scale"></i></div>
+          <div class="col-xs "><i class="fa fa-building"></i></div>
+          <div class="col-xs "><i class="fab fa-adobe"></i></div>
+        </div>
+        <div class="between-xs row">
+          <div class="col-xs-2 banner__center-icon"><i class="fa fa-atom"></i></div>
+          <div class="col-md-6 ">
+            <div class="banner__title">Get personalized recommendations</div>
+            <div class="banner__subtitle">Answer a few questions for your top picks</div>
+            <div><button type="button" class="btn btn-danger">Get started</button></div>
+          </div>
+          <div class="col-xs-2 banner__center-icon"><i class="fa fa-palette"></i></div>
+        </div>
+        <div class="between-xs banner__icon row">
+          <div class="col-xs"><i class="fa fa-laptop"></i></div>
+          <div class="col-xs"><i class="fa fa-chart-line"></i></div>
+          <div class="col-xs"><i class="fa fa-poll"></i></div>
+          <div class="col-xs"><i class="fa fa-gopuram"></i></div>
+          <div class="col-xs"><i class="fa fa-paint-brush"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="topCategories">
+    <div class="container-fluid">
+      <div class="categories__header">Top categories</div>
+      <div class="row">
+        <div class="categories__content col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="panel panel-default">
+            <i class="fa fa-folder"></i>
+            <a href="#">Development</a>
+          </div>
+        </div>
+        <div class="categories__content col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="panel">
+            <i class="fa fa-chart-bar"></i>
+            <a href="#">Bussiness</a>
+          </div>
+        </div>
+        <div class="categories__content col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="panel">
+            <i class="fa fa-tv"></i>
+            <a href="#">IT & Software</a>
+          </div>
+        </div>
+        <div class="categories__content col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="panel panel-default">
+            <i class="fa fa-pencil-ruler"></i>
+            <a href="#">Design</a>
+          </div>
+        </div>
+        <div class="categories__content col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="panel panel-default">
+            <i class="fa fa-bullseye"></i>
+            <a href="#">Marketing</a>
+          </div>
+        </div>
+        <div class="categories__content col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="panel panel-default">
+            <i class="fab fa-leanpub"></i>
+            <a href="#">Personal development</a>
+          </div>
+        </div>
+        <div class="categories__content col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="panel panel-default">
+            <i class="fa fa-camera"></i>
+            <a href="#">Photography</a>
+          </div>
+        </div>
+        <div class="categories__content col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="panel panel-default">
+            <i class="fa fa-music"></i>
+            <a href="#">Music</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pre__footer">
+    <div class="feedback">
+      <div class="feedback__header">
+        <h2>What our students have to say </h2>
+      </div>
+      <div id="feedback-carousel" class="feedback__content owl-carousel owl-theme">
+        <div class="feedback__tab">
+          <span class="avatar"><img src="./img/student_1.jpg" alt="">Borivoje</span>
+          <p>Udemy is a life saver. I don't have the time or money for a college education. My goal is to become a
+            freelance web developer, and thanks to Udemy, I'm really close.</p>
+        </div>
+        <div class="feedback__tab">
+          <span class="avatar"><img src="./img/student2.jpg" alt="">Dipesh</span>
+          <p>I believe in lifelong learning and Udemy is a great place to learn from experts. I've learned a lot and
+            recommend it to all my friends.</p>
+        </div>
+        <div class="feedback__tab">
+          <span class="avatar"><img src="./img/sutdent3.jpg" alt="">Zulaika</span>
+          <p>I work in project management and joined Udemy because I get great courses for less. The instructors are
+            fantastic, interesting, and helpful. I plan to use Udemy for a long time!</p>
+        </div>
+        <div class="feedback__tab">
+          <span class="avatar"><img src="./img/student4.jpg" alt="">Marco</span>
+          <p>Thank you Udemy! You've renewed my passion for learning and my dream of becoming a web developer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="partners">
+      <div class="partners__text">
+        Trusted by companies of all sizes
+      </div>
+      <a class="partners__logos-container" target="_blank" href="#">
+        <div class="partners__logos">
+          <div class="logo-item">
+            <img src="./img/booking.svg" width="151" height="26" class="logo">
+          </div>
+          <div class="logo-item">
+            <img src="./img/volkswagen.svg" width="151" height="26" class="logo">
+          </div>
+          <div class="logo-item">
+            <img src="./img/mercedes.svg" width="151" height="26" class="logo">
+          </div>
+          <div class="logo-item">
+            <img src="./img/pinterest.svg" width="151" height="26" class="logo">
+          </div>
+          <div class="logo-item">
+            <img src="./img/adidas.svg" width="151" height="26" class="logo">
+          </div>
+          <div class="logo-item">
+            <img src="./img/paypal.svg" width="151" height="26" class="logo">
+          </div>
+        </div>
+      </a>
+      <div class="non-student-cta-wrapper">
+        <div class="non-student-cta">
+          <div class="non-student-cta__text">
+            <div class="non-student-cta__header">
+              <a href="#">Become an instructor</a>
+            </div>
+            <div class="non-student-cta__content">
+              Top instructors from around the world teach millions of students on Udemy. We provide the tools and skills
+              to teach what you love.
+            </div>
+            <div class="non-student-cta__link">
+              <a href="#" class="btn btn-danger">
+                Start teaching today
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="non-student-cta" style="border: none;">
+          <div class="non-student-cta__text">
+            <div class="non-student-cta__header">
+              <a href="#">Udemy for Business</a>
+            </div>
+            <div class="non-student-cta__content">
+              Get unlimited access to 4,000+ of Udemy’s top courses for your team.
+            </div>
+            <div class="non-student-cta__link">
+              <a href="#" class="btn btn-danger">
+                Get Udemy for Business
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <hr>
+    <div class="container-fluid footer__main">
+      <div class="row">
+        <div class="hidden-xxs hidden-xs col-sm-9 footer__links--main">
+          <ul class="links ">
+            <li>
+              <a href="#">
+                Udemy for Business
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Teach on Udemy
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Udemy app
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                About us
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Contact us
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Careers
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Help and Support
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Affiliate
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Sitemap
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Featured courses
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <div class="ud-component text-right">
+            <div class="btn-group"><button aria-label="Select language"
+                type="button" class="dropdown-toggle btn btn-sm btn-quaternary"
+                style="padding-right: 26px;"><span class="ml10 mr10 udi udi-globe"></span> <span
+                  class="mr10">English</span><span style="position: absolute; right: 12px;"><span
+                    class="dropdown-caret udi udi-angle-down"></span></span></button>
+              <ul role="menu" class="dropdown-menu" aria-labelledby="locale-dropdown">
+                <li role="presentation" class=""><a data-purpose="en_US" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">English</a></li>
+                <li role="presentation" class=""><a data-purpose="de_DE" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">Deutsch</a></li>
+                <li role="presentation" class=""><a data-purpose="es_ES" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">Español</a></li>
+                <li role="presentation" class=""><a data-purpose="fr_FR" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">Français</a></li>
+                <li role="presentation" class=""><a data-purpose="id_ID" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">Bahasa Indonesia</a></li>
+                <li role="presentation" class=""><a data-purpose="it_IT" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">Italiano</a></li>
+                <li role="presentation" class=""><a data-purpose="ja_JP" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">日本語</a></li>
+                <li role="presentation" class=""><a data-purpose="ko_KR" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">한국어</a></li>
+                <li role="presentation" class=""><a data-purpose="nl_NL" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">Nederlands</a></li>
+                <li role="presentation" class=""><a data-purpose="pl_PL" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">Polski</a></li>
+                <li role="presentation" class=""><a data-purpose="pt_BR" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">Português</a></li>
+                <li role="presentation" class=""><a data-purpose="ro_RO" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">Română</a></li>
+                <li role="presentation" class=""><a data-purpose="ru_RU" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">Русский</a></li>
+                <li role="presentation" class=""><a data-purpose="th_TH" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">ภาษาไทย</a></li>
+                <li role="presentation" class=""><a data-purpose="tr_TR" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">Türkçe</a></li>
+                <li role="presentation" class=""><a data-purpose="zh_CN" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">中文(简体)</a></li>
+                <li role="presentation" class=""><a data-purpose="zh_TW" rel="nofollow" role="menuitem" tabindex="-1"
+                    href="javascript:void(0)">中文(繁體)</a></li>
+              </ul>
+            </div><span class="track-impression--waypoint--wvgq2"><span style="font-size: 0px;"></span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container-fluid footer__bottom">
+      <div class="row">
+        <div class="col-sm-6">
+          <a class="dib mr20" href="/web/20200629105941/https://www.udemy.com/">
+            <img alt="Udemy" class="ufb-logo"
+              src="https://web.archive.org/web/20200629105941im_/https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg"
+              width="110" height="32">
+          </a>
+          <div class="visible-xxs-block visible-xs-inline-block mb10"></div>
+          <span class="footer__copyright dib mr20 text-midnight-lighter">
+            Copyright © 2020 Udemy, Inc.
+          </span>
+          <div class="visible-xxs-block visible-xs-inline-block mb10"></div>
+        </div>
+        <div class="col-sm-6 text-right footer__links--bottom">
+          <ul class="links list-inline">
+            <li>
+              <a data-purpose="terms-link" href="/web/20200629105941/https://www.udemy.com/terms/">
+                Terms
+              </a>
+            </li>
+            <li>
+              <a data-purpose="privacy-link" href="/web/20200629105941/https://www.udemy.com/terms/privacy/">
+                Privacy Policy and Cookie Policy
+              </a>
+            </li>
+            <li class="footer__sitemap">
+              <a class=" " data-purpose="footer.links.sitemap"
+                href="/web/20200629105941/https://www.udemy.com/sitemap/">
+                Sitemap
+              </a>
+            </li>
+            <li class="footer__sitemap">
+              <a class=" " data-purpose="footer.links.popular_courses"
+                href="/web/20200629105941/https://www.udemy.com/popular-courses/">
+                Featured courses
+              </a>
+            </li>
+            <li class="footer__sitemap">
+              <a class=" " data-purpose="footer.links.about"
+                href="https://web.archive.org/web/20200629105941/https://about.udemy.com/?locale=en-us">
+                About us
+              </a>
+            </li>
+            <li class="footer__sitemap">
+              <a class=" " data-purpose="footer.links.contact"
+                href="https://web.archive.org/web/20200629105941/https://about.udemy.com/company?locale=en-us#offices">
+                Contact us
+              </a>
+            </li>
+            <li class="footer__sitemap">
+              <a class=" " data-purpose="footer.links.blog"
+                href="https://web.archive.org/web/20200629105941/https://blog.udemy.com/?ref=footer">
+                Blog
+              </a>
+            </li>
+            <li class="footer__app-download-link ud-component--footer--mobile-app-download-link" ng-non-bindable="">
+              <a data-purpose="mobile-app-download-link" href="https://udemy.app.link/garBkjjtDO"
+                rel="noopener noreferrer" target="_blank">Get the app</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr class="hr-primary">
+    <div class="ud-component--footer--incentive-signup" ng-non-bindable="">
+      <div></div>
+    </div>
+    <div class="ud-component--footer--share-welcome-popup" ng-non-bindable=""></div>
+  </footer>
+  </div>
+
+
+  <!-- Thư viện hỗ trợ -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <!-- BS4 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <!-- owl carousel -->
+  <script src="./sass/Vendor/owl/owl.carousel.min.js"></script>
+  <!-- main js -->
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

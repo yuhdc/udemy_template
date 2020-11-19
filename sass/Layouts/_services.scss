@@ -1,0 +1,39 @@
+.services {
+    margin-top: $mg-2;
+    background-color: $color-white-cream;
+    padding: 24px;
+    .container {
+        .row {
+            width: 100%;
+            flex-wrap: nowrap;
+            .services_tab {
+                align-items: flex-start;
+                display: flex;
+                padding: 24px;
+                text-align: left;
+                background-color: $color-white-0;
+                border: 1px solid #e8e9eb;
+                border-radius: 2px;
+                margin-right: 14px;
+                .services_icon {
+                    margin: 0 16px 0 0;
+                    i {
+                        @include styleText($color-blue, 42px, $fw-bold-1);
+                    }
+                }
+                .services_content {
+                    h3 {
+                        @include styleText($color-black-0, $fs-2, $fw-bold-0);
+                        line-height: 1.47em;
+                    }
+                    p {
+                        word-spacing: 2px;
+                        margin: 0 0 10.5px;
+                        @include styleText($color-gray-4, $fs-0, $fw-normal);
+                        line-height: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+}

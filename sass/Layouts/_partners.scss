@@ -1,0 +1,54 @@
+.partners {
+    margin-top: 50px;
+    .partners__text {
+        padding-top: 16px;
+        text-align: center;
+        @include styleText($color-gray-4, $fs-0 -1, $fw-normal);
+    }
+    .partners__logos-container {
+        .partners__logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 32px;
+        }
+    }
+    .non-student-cta-wrapper {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 22px;
+        text-align: center;
+        .non-student-cta {
+            display: flex;
+            border-bottom: none;
+            border-right: 1px solid #dedfe0;
+            padding: 28px 30px;
+            flex-grow: 1;
+            justify-content: center;
+            .non-student-cta__text {
+                max-width: 400px;
+                text-align: center;
+                .non-student-cta__header {
+                    padding-top: 3px;
+                    a {
+                        line-height: 1.47em;
+                        @include styleText($color-black-light, $fs-2, $fw-bold-0);
+                    }
+                }
+                .non-student-cta__content {
+                    line-height: 1.5em;
+                    padding-top: 3px;
+                    @include styleText($color-black-0, $fs-0 + 1, $fw-normal);
+                }
+                .non-student-cta__link {
+                    margin-top: 1em;
+                    a {
+                        font-weight: 700;
+                        padding: 11px 12px;
+                    }
+                }
+            }
+        }
+    }
+}

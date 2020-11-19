@@ -1,0 +1,56 @@
+.courses {
+    margin-top: $mg-2;
+    .courses_content {
+        width: 90%;
+        margin: auto;
+        .col-4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $color-gray-5;
+            .courses_des {
+                text-align: left;
+                h2 {
+                    @include styleText($color-black-0, $fs-2, $fw-bold-1);
+                }
+                p {
+                    line-height: 20px;
+                    @include styleText($color-black-0, $fs-0 + 1, $fw-normal);
+                }
+            }
+        }
+    }
+    .myTab {
+        .nav {
+            justify-content: space-between;
+            border-bottom: solid $color-gray-4 1px;
+            .nav-item {
+                .nav-link.active {
+                    border-bottom: 5px solid $color-blue !important;
+                }
+            }
+        }
+        .tab-content {
+            margin-top: $mg-2;
+            .courses_item {
+                width: 100%;
+                white-space: nowrap;
+                .card {
+                    h2.card-title {
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        height: 42px;
+                        margin-bottom: 10px;
+                        @include styleText($color-black-0, $fs-0, $fw-bold-0);
+                    }
+                    .card-text {
+                        overflow: hidden;
+                        font-size: 12px;
+                        color: #686f7a;
+                        @include styleText($color-gray-4, $fs-0 -3, $fw-normal);
+                    }
+                }
+            }
+        }
+    }
+}

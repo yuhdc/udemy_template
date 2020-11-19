@@ -1,0 +1,36 @@
+.pre__footer {
+    background-color: $color-white-cream;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    .feedback {
+        .feedback__content {
+            display: flex;
+            flex-wrap: nowrap;
+            .feedback__tab {
+                height: 100%;
+                background-color: $color-white-0;
+                padding: 30px;
+                min-height: 260px;
+                img {
+                    width: 64px;
+                    height: 64px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    margin-right: 20px;
+                    margin-bottom: 20px;
+                }
+                span {
+                    line-height: 1.5em;
+                    @include styleText($color-black-0, $fs-0 + 1, $fw-bold-0);
+                }
+                p {
+                    word-spacing: 1.5px;
+                    line-height: 1.5em;
+                    @include styleText($color-black-0, $fs-0 + 1, $fw-normal);
+                    max-width: 88%;
+                }
+            }
+        }
+    }
+}
