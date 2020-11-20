@@ -1,5 +1,5 @@
 .topCategories {
-    margin-top: 50px;
+    margin-top: 50p;
     background-color: #fff;
     .container-fluid {
         padding-left: 20px;
@@ -65,6 +65,19 @@
                 text-decoration: none;
                 @include styleText($color-black-0, $fs-0, $fw-normal);
             }
+        }
+    }
+}
+
+
+//responsive
+@include responsive_max("extra-large"){
+    .topCategories{
+        align-items: center;
+        justify-content: center;
+        .categories__content {
+            max-width: 33%;
+            flex-grow: 2;
         }
     }
 }

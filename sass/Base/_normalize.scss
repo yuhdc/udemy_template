@@ -14,16 +14,26 @@
     background-color: $color-white-0 !important;
     box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.1);
     z-index: 10;
-    span{
-        @include styleText($color-blue,$fs-4,$fw-normal);
+    span {
+        @include styleText($color-blue, $fs-4, $fw-normal);
         line-height: 0.6;
     }
-    &:focus{
+    &:focus {
         outline: none;
     }
 }
 
-.owl-next{
+.owl-next {
     left: unset;
     right: -4%;
+}
+
+// chỉnh owl-carousel
+.tab-content > .tab-pane {
+    display: block;
+    height: 0;
+}
+
+.tab-content > .active {
+    height: auto;
 }

@@ -37,3 +37,12 @@
         }
     }
 }
+
+//responsive
+.services{
+    @include responsive_max('medium'){
+        .row{
+            flex-direction: column;
+        }
+    }
+}

@@ -66,6 +66,14 @@ header {
         .ude-btngroup {
             display: none;
         }
+        .navbar__grp-hidden{
+            font-size: 24px!important;
+            i.fa-bars,i.fa-search{
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+            }
+        }
     }
 }
 .header__left {

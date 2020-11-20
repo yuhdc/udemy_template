@@ -31,3 +31,19 @@
         }
     }
 }
+
+// responsive
+
+.intro {
+    @include responsive_max("extra-large") {
+        .intro_icon {
+            display: none;
+        }
+        .intro_1,.intro_2,.intro_3{
+            text-align: center;
+        }
+    }
+    @include responsive_max("medium") {
+        display: none;
+    }
+}

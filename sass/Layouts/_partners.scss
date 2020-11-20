@@ -52,3 +52,18 @@
         }
     }
 }
+
+//responsive
+.partners {
+    @include responsive_max("medium") {
+        .partners__logos {
+            text-align: center;
+            padding-top: 32px;
+            width: 300px;
+            margin: auto;
+            .logo-item{
+                line-height: 40px;
+            }
+        }
+    }
+}

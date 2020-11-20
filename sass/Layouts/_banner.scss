@@ -58,3 +58,14 @@
         }
     }
 }
+
+//responsive
+@include responsive_max("medium") {
+    .banner {
+        margin-bottom: 20px;
+        .col-xs,
+        .col-xs-2 {
+            display: none;
+        }
+    }
+}
